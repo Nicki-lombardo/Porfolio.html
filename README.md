@@ -86,7 +86,22 @@ The <br> tag defines a line break, and is an empty element without a closing tag
 👌 Example
 <p>This is a <br> paragraph with a line break.</p>
 
+❗❗HTML Attributes
+
+All HTML elements can have attributes
+The href attribute of <a> specifies the URL of the page the link goes to
+The src attribute of <img> specifies the path to the image to be displayed
+The width and height attributes of <img> provide size information for images
+The alt attribute of <img> provides an alternate text for an image
+The style attribute is used to add styles to an element, such as color, font, size, and more
+The lang attribute of the <html> tag declares the language of the Web page
+The title attribute defines some extra information about an element
+
 Note: HTML is Not Case Sensitive
+
+
+
+
 HTML tags are not case sensitive: <P> means the same as <p>.
 The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
 
