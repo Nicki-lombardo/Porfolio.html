@@ -97,9 +97,21 @@ The style attribute is used to add styles to an element, such as color, font, si
 The lang attribute of the <html> tag declares the language of the Web page
 The title attribute defines some extra information about an element
 
+❗❗Style
+The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+
+The HTML Style Attribute
+Setting the style of an HTML element, can be done with the style attribute.
+
+The HTML style attribute has the following syntax:
+
+<tagname style="property:value;">
+The property is a CSS property. The value is a CSS value.
+
+
+
+
 Note: HTML is Not Case Sensitive
-
-
 
 
 HTML tags are not case sensitive: <P> means the same as <p>.
