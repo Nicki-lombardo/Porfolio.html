@@ -1,3 +1,5 @@
+HTML/CSS
+
 *** Start learning using a Notepad or TextEdit to write your first lines of code while you learn! 😁
 (Open the Start Screen the window symbol at the bottom left on your screen Type Notepad)
 (Give the file a name and save it as html extension)
@@ -108,7 +110,47 @@ The HTML style attribute has the following syntax:
 <tagname style="property:value;">
 The property is a CSS property. The value is a CSS value.
 
+HTML Formatting Elements
+Formatting elements were designed to display special types of text:
 
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+
+❗❗Colors:
+
+HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+❗Color Values:
+In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.
+ -> The following three <div> elements have their background color set with RGB, HEX, and HSL values:
+    rgb(255, 99, 71) ->  red, Green, Blue -> This means that there are 256 x 256 x 256 = 16777216 possible colors!
+    #ff6347
+    hsl(9, 100%, 64%)
+
+    RGBA -> RGBA color values are an extension of RGB color values with an Alpha channel - which specifies the opacity for a color.
+    An RGBA color value is specified with: rgba(red, green, blue, alpha)
+    The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all)
+
+    - - > A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.
+
+    Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+
+        For example, #ff0000 is displayed as red, because red is set to its highest value (ff), and the other two (green and blue) are set to 00 : #rrggbb
+
+        Another example, #00ff00 is displayed as green, because green is set to its highest value (ff), and the other two (red and blue) are set to 00.
+        To display black, set all color parameters to 00, like this: #000000.
+        To display white, set all color parameters to ff, like this: #ffffff.
+
+    - - > HSL stands for hue, saturation, and lightness.
+          HSLA color values are an extension of HSL with an Alpha channel (opacity).
 
 
 Note: HTML is Not Case Sensitive
@@ -116,5 +158,29 @@ Note: HTML is Not Case Sensitive
 
 HTML tags are not case sensitive: <P> means the same as <p>.
 The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
+
+
+ - - > 
+ - - > CSS: stands for Cascading Style Sheets.
+
+❗ CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+    Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+
+❗❗ What is CSS?
+
+With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
+
+❗Using CSS
+
+CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+The most common way to add CSS, is to keep the styles in external CSS files. However, in this tutorial we will use inline and internal styles, because this is easier to demonstrate, and easier for you to try it yourself.
+
+
+CSS Padding - - > The CSS padding property defines a padding (space) between the text and the border.
 
 
