@@ -152,6 +152,7 @@ In HTML, colors can also be specified using RGB values, HEX values, HSL values, 
     - - > HSL stands for hue, saturation, and lightness.
           HSLA color values are an extension of HSL with an Alpha channel (opacity).
 
+- - > Div : El <div>elemento se utiliza a menudo para agrupar secciones de una página web.
 
 Note: HTML is Not Case Sensitive
 
